@@ -1,5 +1,4 @@
 const mongoose = require('mongoose');
-require('dotenv').config()
 
 mongoose.connect('mongodb+srv://sibtedev72:commerce@cluster0.8e3txpq.mongodb.net/E-Commerce-DB?retryWrites=true&w=majority&appName=Cluster0')
     .then(() => {
