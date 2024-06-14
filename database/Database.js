@@ -1,7 +1,7 @@
 const mongoose = require('mongoose');
 require('dotenv').config()
 
-mongoose.connect(process.env.MONGO_DB_URL)
+mongoose.connect('mongodb+srv://sibtedev72:commerce@cluster0.8e3txpq.mongodb.net/E-Commerce-DB?retryWrites=true&w=majority&appName=Cluster0')
     .then(() => {
         console.log("E-Commerce-Project DATABASE IS CONNECTED SUCCESSFULLY");
     })
