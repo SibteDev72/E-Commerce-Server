@@ -7,4 +7,4 @@ mongoose.connect(process.env.MONGO_DB_URL)
     })
     .catch(() =>{
         console.log("E-Commerce DATABASE IS NOT CONNECTED");
-    })                                                                                                                                                                                                                                                
+    })

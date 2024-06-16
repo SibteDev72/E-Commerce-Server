@@ -36,7 +36,7 @@ app.use('/CategoryInfo', CategoryRouter)
 var CustomerRouter = require('./routes/CustomerRoute');
 app.use('/CustomerInfo', validateUser, CustomerRouter);
 
-var MessageRouter = require('./routes/MessageRoute');
+var MessageRouter = require('./routes/MessageRoute'); 
 app.use('/MessageInfo', validateUser, MessageRouter);
 
 // var MediaUpload = require('./routes/MediaUploadRoute');
